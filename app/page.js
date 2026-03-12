@@ -35,11 +35,11 @@ export default function Home() {
       {/* Sección Contacto */}
       <section id="contacto" className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white px-4">
         <h2 className="text-4xl font-bold text-red-500 mb-6">Contacto</h2>
-        <p className="mb-4">📍 Calle Ejemplo 12, Santa Cruz de Tenerife</p>
-        <p className="mb-4">📞 <a href="tel:+34600000000" className="text-red-500 hover:underline">+34 600 000 000</a></p>
-        <p className="mb-4">📧 <a href="mailto:info@tapiceria.com" className="text-red-500 hover:underline">info@tapiceria.com</a></p>
+        <p className="mb-4">📍 Calle Olimpia Nº57, Costa del silencio. Tenerife</p>
+        <p className="mb-4">📞 <a href="tel:+34638746788" className="text-red-500 hover:underline">+34 600 000 000</a></p>
+        <p className="mb-4">📧 <a href="tapiceriaach@hotmail.com" className="text-red-500 hover:underline">info@tapiceria.com</a></p>
         <a
-          href="https://wa.me/34600000000"
+          href="https://wa.me/34638746788"
           className="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600 transition-colors"
         >
           Contactar por WhatsApp
