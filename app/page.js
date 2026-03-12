@@ -26,9 +26,9 @@ export default function Home() {
       <section id="galeria" className="min-h-screen flex flex-col justify-center items-center bg-black text-white px-4">
         <h2 className="text-4xl font-bold text-red-500 mb-6">Galería</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="../public/images/sillon.jpg" alt="Tapizado Sofá" className="h-40 w-full object-cover" loading="lazy" />
-          <img src="../public/images/sofa.jpg" alt="Tapizado Sillón" className="h-40 w-full object-cover" loading="lazy" />
-          <img src="../public/images/telas.jpg" alt="Tapizado Coche" className="h-40 w-full object-cover" loading="lazy" />
+          <img src="/images/sillon.jpg" alt="Tapizado Sofá" className="h-40 w-full object-cover" loading="lazy" />
+          <img src="/images/sofa.jpg" alt="Tapizado Sillón" className="h-40 w-full object-cover" loading="lazy" />
+          <img src="/images/telas.jpg" alt="Tapizado Coche" className="h-40 w-full object-cover" loading="lazy" />
         </div>
       </section>
 

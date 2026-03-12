@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Mapa */}
         <div className="w-full md:w-1/2 h-64">
           <iframe
-            src="https://www.google.com/maps?q=Santa+Cruz+de+Tenerife&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.836586504514!2d-16.6386632!3d28.029470000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a99ebcc39ed23%3A0xb6b1f27dcbdf3641!2sTapicer%C3%ADa%20ACH%2B%20TOLNAUTIC!5e0!3m2!1ses-419!2ses!4v1773324099022!5m2!1ses-419!2ses"
             width="100%"
             height="100%"
             className="rounded"
