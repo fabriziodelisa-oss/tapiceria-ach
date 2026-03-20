@@ -1,18 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 
-/**
- * TopBar — barra superior estilo eltapicero.es
- *
- * Props (todas opcionales, con valores por defecto):
- *   logo        {string}  URL del logo
- *   logoAlt     {string}  Texto alternativo del logo
- *   email       {string}
- *   address     {string}
- *   phone       {string}  Número en formato tel: (ej. "+34667626552")
- *   phoneLabel  {string}  Etiqueta encima del teléfono (ej. "Presupuesto Gratuito")
- */
 export default function TopBar({
-  logo = "../images/achlogo.png",
+  logo = "../../../images/achlogo.png",
   logoAlt = "Logo",
   email = "tapiceriaach@hotmail.com",
   address = "Calle Olimpia Nº57, Costa del silencio, Tenerife",
