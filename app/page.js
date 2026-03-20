@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       {/* Sección Servicios */}
-      <section id="servicios" className="min-h-screen flex flex-col justify-center items-center bg-slate-800 text-white px-4">
+      <section id="servicios" className="min-h-screen flex flex-col justify-center items-center bg-[#1a1a1a] text-white px-4">
         <h2 className="text-4xl font-bold text-red-700 mb-6">Servicios</h2>
         <ul className="space-y-3 text-lg text-white text-center">
           <li>Tapizado y reparación de:</li>
@@ -106,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* Sección Contacto */}
-      <section id="contacto" className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white px-4">
+      <section id="contacto" className="min-h-screen flex flex-col justify-center items-center bg-[#1a1a1a] text-white px-4">
         <h2 className="text-4xl font-bold text-red-700 mb-6">Contacto</h2>
         <p className="mb-4">📍 Calle Olimpia Nº57, Costa del silencio. Tenerife</p>
         <p className="mb-4">📞 <a href="tel:+34638746788" className="text-red-700 hover:underline">+34 638 74 67 88</a></p>
@@ -114,7 +114,7 @@ export default function Home() {
         <p className="mb-4">🕐 Lunes a Viernes de 09hs a 17hs.</p>
         <a
           href="https://wa.me/34638746788"
-          className="bg-red-700 text-white px-6 py-3 rounded hover:bg-red-800 transition-colors"
+          className="bg-[#b91c1c] text-white px-6 py-3 rounded hover:bg-[#991b1b] transition-colors"
         >
           Contactar por WhatsApp
         </a>
