@@ -1,7 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function TopBar({
-  logo = "../../../images/achlogo.png",
+  logo = "../images/achlogo.PNG",
   logoAlt = "Logo",
   email = "tapiceriaach@hotmail.com",
   address = "Calle Olimpia Nº57, Costa del silencio, Tenerife",
