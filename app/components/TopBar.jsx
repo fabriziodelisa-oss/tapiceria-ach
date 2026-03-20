@@ -1,21 +1,38 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 
-export default function TopBar() {
-  var logo = "../images/achlogo.png";
-  var logoAlt = "Logo";
-  var email = "tapiceriaach@hotmail.com";
-  var address = "Calle Olimpia Nº57, Costa del silencio, Tenerife";
-  var phone = "+34 638 74 67 88";
-  var phoneLabel = "Presupuesto Gratuito";
+/**
+ * TopBar — barra superior estilo eltapicero.es
+ *
+ * Props (todas opcionales, con valores por defecto):
+ *   logo        {string}  URL del logo
+ *   logoAlt     {string}  Texto alternativo del logo
+ *   email       {string}
+ *   address     {string}
+ *   phone       {string}  Número en formato tel: (ej. "+34667626552")
+ *   phoneLabel  {string}  Etiqueta encima del teléfono (ej. "Presupuesto Gratuito")
+ */
+export default function TopBar({
+  logo = "../images/achlogo.png",
+  logoAlt = "Logo",
+  email = "tapiceriaach@hotmail.com",
+  address = "Calle Olimpia Nº57, Costa del silencio, Tenerife",
+  phone = "+34 638 74 67 88",
+  phoneLabel = "Presupuesto Gratuito",
+}) {
   return (
     <>
       <style>{`
         .topbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 60;
           background-color: #1a1a1a;
-          color: #ce0000;
+          color: #e70a0a;
           font-family: 'Georgia', serif;
           width: 100%;
-          border-bottom: 2px solid #7a0606;
+          border-bottom: 2px solid #920606;
         }
 
         .topbar__inner {
@@ -58,7 +75,7 @@ export default function TopBar() {
         }
 
         .topbar__icon {
-          color: #ce0000;
+          color: #e70a0a;
           flex-shrink: 0;
           width: 18px;
           height: 18px;
@@ -74,7 +91,7 @@ export default function TopBar() {
           font-size: 10px;
           text-transform: uppercase;
           letter-spacing: 0.12em;
-          color: #ce0000;
+          color: #e70a0a;
           font-family: 'Arial Narrow', 'Arial', sans-serif;
           font-weight: 700;
         }
@@ -87,7 +104,7 @@ export default function TopBar() {
         }
 
         .topbar__item--link:hover .topbar__value {
-          color: #ce0000;
+          color: #e70a0a;
           transition: color 0.2s ease;
         }
 
@@ -121,7 +138,7 @@ export default function TopBar() {
 
           {/* Logo */}
           <div className="topbar__logo">
-            <a href="../layout.js" aria-label="Ir a la página de inicio">
+            <a href="/">
               <img src={logo} alt={logoAlt} />
             </a>
           </div>

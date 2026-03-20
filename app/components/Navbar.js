@@ -24,7 +24,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-50">
+    <nav style={{ top: 'var(--topbar-height, 76px)' }} className="fixed left-0 w-full bg-black/90 backdrop-blur-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <div className="text-red-700 font-bold text-xl">Tapicería ACH+</div>
         <div className="space-x-6 hidden md:flex">
